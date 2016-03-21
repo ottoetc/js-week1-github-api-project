@@ -1,0 +1,21 @@
+$gray : #d3d3d3;
+$yellow : #FFAE42;
+$blue : #0077BE;
+
+.container {
+  background: $yellow;
+  border: 3px solid $blue;
+  border-radius: 10px;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: $blue;
+    border-color: $blue;
+    color: white;
+
+  }
+  h1, h4 {
+    color: $blue;
+  }
+}
